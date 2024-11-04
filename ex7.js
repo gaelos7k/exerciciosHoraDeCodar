@@ -11,7 +11,7 @@ let livro  = {
 };
 
 console.log(livro);
-//desta forma eu imprimi no comsole o objeto inteiro
+//desta forma eu imprimi no console o objeto inteiro
 
 console.log(livro.titulo);      
 console.log(livro.autor);       
