@@ -3,5 +3,5 @@ let idade = parseInt(prompt("Qual sua idade?"));//mesmo sem a conversão para in
 if(idade>=18){
     console.log(`Você é maior de idade!`)
 }else {
-    console.log(`Você é menor de idade!`)//está com crase pois ru ia fazer uma concatenação inexistente, deixei invés de usar aspas.
+    console.log(`Você é menor de idade!`)//está com crase pois eu ia fazer uma concatenação inexistente, deixei invés de usar aspas.
 }
