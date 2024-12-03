@@ -5,6 +5,9 @@ let n1 = Number(prompt("Insira um número"));//Não precisava converter em intei
 let n2 = Number(prompt("Insira outro número"));
 
 console.log(`A soma de ${n1} mais ${n2} é: ` + (n1 + n2)); //Se não houver uma conversão de string para número o operador "+" entende que é string.
+
 console.log(`A subtração de ${n1} menos ${n2} é: ` + (n1 - n2));
+
 console.log(`A multiplicação de ${n1} vezes ${n2} é: ` + (n1 * n2));
+
 console.log(`A divisão de ${n1} dividido por ${n2} é: ` + (n1 / n2));
