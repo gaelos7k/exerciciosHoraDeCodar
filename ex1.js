@@ -6,5 +6,4 @@
 const nome = "Gabriel"
 const idade = 22
 
-console.log(`Olá, meu nome é ${nome} e eu tenho ${idade} anos`);//contatenação com crases
-//é muito legal codar em js
+console.log(`Olá, meu nome é ${nome} e eu tenho ${idade} anos`);

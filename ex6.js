@@ -1,8 +1,10 @@
-//Arrays: Escreva um programa que declare um array de suas frutas favoritas e imprima cada fruta na lista usando um loop.
+//Arrays: Escreva um programa que declare um array de suas motos favoritas e imprima cada moto na lista usando um loop.
 
-let frutas = ["Maçã", "Banana", "Limão", "Uva"];
-for(let i=0; i<frutas.length; i++){
+const motos = ["CG 160", "CBR 1000", "Kawasaki Ninja", "Yamaha Fazer"];
 
-    console.log(frutas[i]);
+for (let i = 0; i < motos.length; i++) {      //Percorrende o array.
+    console.log(motos[i]);
 }
-//eu tive dificuldade nesta questão :) vou precisar fazer mais exercicios
+for (let i = motos.length - 1; i >= 0; i--) { //Percorrendo o array ao contrário.
+    console.log(motos[i]);
+}

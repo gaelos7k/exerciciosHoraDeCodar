@@ -3,17 +3,16 @@ Objetos: Crie um objeto que represente um livro, com propriedades para título, 
 Imprima cada propriedade no console.
 */
 
-let livro  = {
+livro = {
     titulo: "O Hobbit",
     autor: "J R R Tolkien",
-    numeroDePaginas: 200 //isso foi um número de páginas aleatório
-
-};
+    numeroDePaginas: 336
+}
 
 console.log(livro);
-//desta forma eu imprimi no comsole o objeto inteiro
+//Desta forma eu imprimi no console o objeto inteiro.
 
-console.log(livro.titulo);      
-console.log(livro.autor);       
-console.log(livro.numeroDePaginas);  
-//desta forma imprimi cada propriedade no console
+console.log(livro.titulo);
+console.log(livro.autor);
+console.log(livro.numeroDePaginas);
+//Desta forma imprimi cada propriedade do objeto no console.
